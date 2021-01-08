@@ -1,6 +1,7 @@
 #!/usr/bin/bash
-#rowbot's port scanner
-#offsecnewbie.com
+# rowbot's port scanner
+# offsecnewbie.com
+# usage = ./portscanner.sh 127.0.0.1
 
 IP=$1
 echo "Scanning with rustscan to quickly give you ports to start working on"
