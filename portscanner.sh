@@ -13,3 +13,4 @@ nmap -A -sC -sV -p$ports $1 -oX $1.xml;
 echo -e "Searching for known exploits in searchsploit...you might get lucky"
 searchsploit -v --nmap $1.xml
 rm $1.xml
+echo -e  "Don't forget to scan UDP ports if you cant find a foothold using TCP ports"
